@@ -22,12 +22,12 @@ body {
 	font-family: helvetica;
 }
 
-.originalblue .ui-widget-header { border: 0px; background: #fff; color: #000; font-weight: bold; }
-.originalblue .ui-widget-header a { color: #000; font-weight: normal; }
-.originalblue .ui-widget-header table { background-color: #ededed; font-weight: normal; }
-.originalblue .ui-widget-content { border: 0px; }
-.originalblue .ui-widget { font-family: Helvetica; padding: 25px; font-size: 1em; }
-.originalblue .ui-widget-content a { text-decoration: none; }
+.simplegrey .ui-widget-header { border: 0px; background: #fff; color: #000; font-weight: bold; }
+.simplegrey .ui-widget-header a { color: #000; font-weight: normal; }
+.simplegrey .ui-widget-header table { background-color: #ededed; font-weight: normal; }
+.simplegrey .ui-widget-content { border: 0px; }
+.simplegrey .ui-widget { font-family: Helvetica; padding: 25px; font-size: 1em; }
+.simplegrey .ui-widget-content a { text-decoration: none; }
 
 
 
@@ -45,7 +45,7 @@ table.tableinfo tr.selected > td { background-color: #FFF; }
 table.tableinfo tr.selected:hover > td { background-color: #EDEDED; }
 
 .normal { background-color: #FFF !important; }
-.originalblue .ui-widget { font-family: Helvetica; font-size: 1em; }
+.simplegrey .ui-widget { font-family: Helvetica; font-size: 1em; }
 
 /* menu */
 table.menu { height: 2.8em; color: #000; }
@@ -68,7 +68,7 @@ table.page_header { display: none; }
 	margin-right: 0; vertical-align: top; padding: 0 2px; height: 16px; width: 160px; border-right: 0; border-color: #dedede;
 }
 
-.originalblue .ui-state-default, .originalblue .ui-widget-content .ui-state-default, .originalblue .ui-widget-header .ui-state-default { border: 1px solid #dedede; background: #ededed; font-weight: normal; color: #000; }
+.simplegrey .ui-state-default, .simplegrey .ui-widget-content .ui-state-default, .simplegrey .ui-widget-header .ui-state-default { border: 1px solid #dedede; background: #ededed; font-weight: normal; color: #000; }
 
 div.scrollbar .sublevel .left {
 	float: left; width: 17px; height: 27px; background-image: none; cursor: pointer;
