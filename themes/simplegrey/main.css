@@ -1,0 +1,83 @@
+@import "jquery-ui.css";
+
+.unknown, a.unknown { color: #777; }
+a.unknown:hover { color: #999; }
+
+.dropArea { background-color: #FFB; }
+.dropHereText { color: #5481AB; }
+
+table.ack_msgs tr.msg { background-color: #F8F8F8; }
+
+.ui-widget-content a.on { color: #EE0000; }
+.ui-widget-content a.on:hover { color: #CC4444; }
+
+div.preloader {
+	background: url("images/preloader.gif") no-repeat;
+}
+
+body {
+	background-color: white;
+	background: #ffffff;
+	color: #000000;
+	font-family: helvetica;
+}
+
+.originalblue .ui-widget-header { border: 0px; background: #fff; color: #000; font-weight: bold; }
+.originalblue .ui-widget-header a { color: #000; font-weight: normal; }
+.originalblue .ui-widget-header table { background-color: #ededed; font-weight: normal; }
+.originalblue .ui-widget-content { border: 0px; }
+.originalblue .ui-widget { font-family: Helvetica; padding: 25px; font-size: 1em; }
+.originalblue .ui-widget-content a { text-decoration: none; }
+
+
+
+table.tableinfo { color: #000; background-color: #FFF; }
+table.tableinfo caption { background-color: #FFF; }
+table.tableinfo tr.header td { background-color: #FFF; }
+table.tableinfo tr.header td.hover_grey { background-color: #EDEDED; }
+table.tableinfo tr.header td.hover_grey:hover { color: #000000; background-color: #EDEDED; }
+table.tableinfo tr.vertical_header td { background-color: #FFF; }
+table.tableinfo tr.odd_row > td { background-color: #FFF; }
+table.tableinfo tr.odd_row:hover > td { background-color: #EDEDED; }
+table.tableinfo tr.even_row > td { background-color: #FFF; }
+table.tableinfo tr.even_row:hover > td { background-color: #EDEDED; }
+table.tableinfo tr.selected > td { background-color: #FFF; }
+table.tableinfo tr.selected:hover > td { background-color: #EDEDED; }
+
+.normal { background-color: #FFF !important; }
+.originalblue .ui-widget { font-family: Helvetica; font-size: 1em; }
+
+/* menu */
+table.menu { height: 2.8em; color: #000; }
+table.menu tr { background: #EDEDED; }
+table.menu td { padding: 2px 5px 2px 5px; font-weight: normal; border: 0px; margin: 0; cursor: pointer; }
+table.menu tr td.active { background: #EDEDED; font-weight: bold; }
+
+/* sub menu */
+table.sub_menu {height: 1.8em; background-color: #ededed; }
+table.sub_menu tr td { padding-left: 5px; padding-top: 0; padding-bottom: 0; height: 2.2em; }
+table.sub_menu tr td span.active a.highlight { color: #000; font-weight: bold; }
+highlight { color: #fff; font-weight: bold; }
+highlight:hover { color: #fff; font-weight: bold; }
+
+.textwhite#mmenu { background-color: #EDEDED; }
+table.history { visibility: hidden; }
+
+table.page_header { display: none; }
+#zbx_search input[type=text] {
+	margin-right: 0; vertical-align: top; padding: 0 2px; height: 16px; width: 160px; border-right: 0; border-color: #dedede;
+}
+
+.originalblue .ui-state-default, .originalblue .ui-widget-content .ui-state-default, .originalblue .ui-widget-header .ui-state-default { border: 1px solid #dedede; background: #ededed; font-weight: normal; color: #000; }
+
+div.scrollbar .sublevel .left {
+	float: left; width: 17px; height: 27px; background-image: none; cursor: pointer;
+}
+
+table.header_wide tr.first td.header_l { font-size: 1.3em; font-weight: bold; text-align: left; height: 24px; padding-left: 5px; color: #000; }
+table.flicker { background: #ededed; color: #000; border: 0; }
+td.flicker_c { display: none; }
+table.formtable tr td.form_row_last {
+	color: #FFFFFF; text-align: right;
+	background: #ededed;
+}
